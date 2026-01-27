@@ -1,0 +1,71 @@
+/* Základní nastavení stránky */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Hlavička */
+header {
+  background: linear-gradient(135deg, #3a7bd5, #3a6073);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+/* Sekce */
+section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nadpisy */
+h2 {
+  color: #3a7bd5;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Odstavce */
+p {
+  line-height: 1.7;
+  font-size: 1em;
+}
+
+/* Zvýrazněný text */
+strong {
+  color: #2c3e50;
+}
+
+/* Odkazy */
+a {
+  color: #3a7bd5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responzivita */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6em;
+  }
+
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+}
